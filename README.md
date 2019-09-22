@@ -18,3 +18,6 @@ An RFID-enabled cashless payment solution for the homeless.
 - Go to project's root folder and run `npm install`.
 - Go to iOS folder and run `pod install`.
 - Run `react-native run-ios` or `react-native run-android` in project root folder to start the application!
+
+## Presentation link
+https://www.canva.com/design/DADmLzBmomU/ZXsrj-aJpJB5HHNoEnlQPg/view?utm_content=DADmLzBmomU&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
