@@ -17,6 +17,7 @@ import strings from 'localization';
 import getUser from 'selectors/UserSelectors';
 import { Container, Header, Left, Body, Right, Button, Icon, Title, Spinner } from 'native-base';
 import TopUp from './TopUp';
+import axios from 'axios';
 
 function Home() {
   const user = useSelector(state => getUser(state));
@@ -24,6 +25,7 @@ function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [funds, setFunds] = useState(0);
   const [topUpModalVisible, setTopUpModalVisible] = useState(false);
+  const [profile, setProfile] = useState({});
 
   const _cleanUp = () => {
     NfcManager.setEventListener(NfcEvents.DiscoverTag, null);
@@ -38,10 +40,10 @@ function Home() {
   const _test = async () => {
     try {
       setIsLoading(true)
-      setTopUpModalVisible(true);
+      // setTopUpModalVisible(true);
       await NfcManager.registerTagEvent();
     } catch (ex) {
-      console.log('ex', ex);
+      console.warn('ex', ex);
       NfcManager.unregisterTagEvent().catch(() => 0);
       setIsLoading(false)
     }
@@ -52,16 +54,16 @@ function Home() {
       let resp = await NfcManager.requestTechnology(NfcTech.Ndef, {
         alertMessage: 'Ready to write some NFC tags!'
       });
-      console.log(resp);
+      console.warn(resp);
       let ndef = await NfcManager.getNdefMessage();
-      console.log(ndef);
+      console.warn(ndef);
       let bytes = buildUrlPayload("1");
       await NfcManager.writeNdefMessage(bytes);
-      console.log('successfully write ndef');
+      console.warn('successfully write ndef');
       await NfcManager.setAlertMessageIOS('I got your tag!');
       _cleanUp();
     } catch (ex) {
-      console.log('ex', ex);
+      console.warn('ex', ex);
       _cleanUp();
     }
   }
@@ -73,8 +75,16 @@ function Home() {
   useEffect(() => {
     NfcManager.start();
     NfcManager.setEventListener(NfcEvents.DiscoverTag, tag => {
-      setIsLoading(false);
-      console.log('tag', tag, NdefParser.parseText(tag.ndefMessage[0]));
+      console.warn('tag', tag, );
+      axios.post('https://w0zhdd90c3.execute-api.us-east-1.amazonaws.com/test/profile', {
+            id: 1,
+            type: 'profile',
+        }).then(res => {
+            console.log(res);
+            setIsLoading(false);
+            setProfile(res.data[0])
+            setTopUpModalVisible(true);
+        }).catch(err => console.log(err))
       NfcManager.setAlertMessageIOS('I got your tag!');
       NfcManager.unregisterTagEvent().catch(() => 0);
     });
@@ -83,7 +93,7 @@ function Home() {
 
   return (
     <View style={styles.container}>
-      <TopUp topUpModalVisible={topUpModalVisible} setTopUpModalVisible={setTopUpModalVisible} funds={funds} setFunds={setFunds}/>
+      <TopUp profile={profile} topUpModalVisible={topUpModalVisible} setTopUpModalVisible={setTopUpModalVisible} funds={funds} setFunds={setFunds}/>
       <Image style={{height: 200, resizeMode:'contain'}} source={scan}/>
       <View style={{padding: 20}}>
         <Button onPress={_test} style={{backgroundColor:Colors.primary, borderRadius: 20, width:200, alignItems:'center', justifyContent:'center'}}>

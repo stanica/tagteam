@@ -27,9 +27,9 @@ import { Container, Header, Left, Body, Right, Button, Icon, Title } from 'nativ
 const iconForTab = ({ state }) => {
   switch (state.routeName) {
     case 'Home':
-      return 'wallet';
+      return 'price-tag';
     case 'Profile':
-      return 'user';
+      return 'wallet';
     case 'Music':
       return 'music';
     default:
@@ -67,7 +67,8 @@ const ProfileStack = createStackNavigator({ Profile },{
     headerStyle: {
       backgroundColor: Colors.primary,
     },
-    headerTintColor: Colors.primary,
+    // headerTitle: <Text>ADSS</Text>,
+    headerTintColor: Colors.white,
   }
 });
 const HomeStack = createStackNavigator({ Home },{
@@ -76,7 +77,7 @@ const HomeStack = createStackNavigator({ Home },{
       backgroundColor: Colors.primary,
     },
     headerRight: (
-      <Button transparent onPress={() => alert('This is a button!')}>
+      <Button transparent onPress={() => alert('Don\'t press this!')}>
               <Icon style={{color: 'white', fontSize: 30}} type="EvilIcons" name='gear' />
             </Button>
     ),
