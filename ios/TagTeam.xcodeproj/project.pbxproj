@@ -5,10 +5,9 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rntemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rntemplateTests.m */; };
-		0EBFD7D119106E8A1C6559CE /* libPods-rntemplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2841A80E811AE6813EAC8E3 /* libPods-rntemplateTests.a */; };
+		00E356F31AD99517003FC87E /* TagTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TagTeamTests.m */; };
+		0EBFD7D119106E8A1C6559CE /* libPods-TagTeamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2841A80E811AE6813EAC8E3 /* libPods-TagTeamTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +15,29 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* rntemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rntemplateTests.m */; };
-		39661FB9D78F4867E7A82A7C /* libPods-rntemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B585754B7D529901B9E3923 /* libPods-rntemplate.a */; };
-		DEA2584331FDB88C78C72556 /* libPods-rntemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2CC7B0FEDACF36C5ACD832 /* libPods-rntemplate-tvOSTests.a */; };
-		E450DDF6859F1AB0B90B8B12 /* libPods-rntemplate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E274149E6BA5A64F718A4 /* libPods-rntemplate-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* TagTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TagTeamTests.m */; };
+		39661FB9D78F4867E7A82A7C /* libPods-TagTeam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B585754B7D529901B9E3923 /* libPods-TagTeam.a */; };
+		DEA2584331FDB88C78C72556 /* libPods-TagTeam-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2CC7B0FEDACF36C5ACD832 /* libPods-TagTeam-tvOSTests.a */; };
+		E450DDF6859F1AB0B90B8B12 /* libPods-TagTeam-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 740E274149E6BA5A64F718A4 /* libPods-TagTeam-tvOS.a */; };
+		7BAE3204A930463A991CE146 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C51E5921F27407399D5E9C3 /* AntDesign.ttf */; };
+		FF820F202142498AB7CD02F2 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C67AE19CA71F44C6A921BF6D /* Entypo.ttf */; };
+		4F209A52623E4740BD4DCB1F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2818C3F34F794C7B9C021AFA /* EvilIcons.ttf */; };
+		B370EA7244AD48D3B875E1BB /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82968F7755934BB28E628230 /* Feather.ttf */; };
+		367C6F5C37E44EFA8620E385 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F23018E4B4DD09A19AFFF /* FontAwesome.ttf */; };
+		4586AD42F44E45DEB3A67BC8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9512322491064C47AF486CA8 /* FontAwesome5_Brands.ttf */; };
+		3A78E5DF26D749718F08F25B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D8C46EA76C34312A17B538D /* FontAwesome5_Regular.ttf */; };
+		183B5E1421944FED9768E78B /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C499AFF8C3424842916A4FCF /* FontAwesome5_Solid.ttf */; };
+		14DF965DF6DC48C9AA60990B /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9344614F4170423F94B7A03F /* Fontisto.ttf */; };
+		A87BC45FF81D47A7983E9C7A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19E53F6F4FFB4C669A30281E /* Foundation.ttf */; };
+		60CFC7E9245C484E9D8D579E /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A289A41BB73E4F819C879B41 /* Ionicons.ttf */; };
+		8ADFAE145B6143B9A51ADE4F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF2F3FF590742E5B2410A32 /* MaterialCommunityIcons.ttf */; };
+		1079F264645242FCB5DCAA46 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7478B23E611D4D4382019A6D /* MaterialIcons.ttf */; };
+		D1C2369DC9BD49A287A718BC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E59E092989604D6595E4743D /* Octicons.ttf */; };
+		20D74BD367F643B78EF56612 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 659FF2C0C4894D4ABC63FDA5 /* Roboto_medium.ttf */; };
+		70489AFF23B8453BA6CE2316 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBF20334FF3E40758BDD1925 /* Roboto.ttf */; };
+		80B1D2FAB03D4D95A9414389 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20180BA6305446D8C9170C5 /* rubicon-icon-font.ttf */; };
+		A4C05003FEAC46E7B3B24212 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85F8C991DA7248D29D02FB39 /* SimpleLineIcons.ttf */; };
+		8770332FC4E340C8B7E19D09 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFCB98DC5DB04C299E015EB3 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,46 +46,65 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rntemplate;
+			remoteInfo = TagTeam;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "rntemplate-tvOS";
+			remoteInfo = "TagTeam-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* rntemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rntemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* TagTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rntemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rntemplateTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rntemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rntemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rntemplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rntemplate/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TagTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagTeamTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TagTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TagTeam/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TagTeam/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rntemplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rntemplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rntemplate/main.m; sourceTree = "<group>"; };
-		1D6AB0DD4ED9912008CB0797 /* Pods-rntemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate.release.xcconfig"; path = "Target Support Files/Pods-rntemplate/Pods-rntemplate.release.xcconfig"; sourceTree = "<group>"; };
-		2246B126FA34C87F01B709E3 /* Pods-rntemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rntemplate-tvOS/Pods-rntemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* rntemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rntemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* rntemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rntemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		514ED44491B6887CA80FF9E5 /* Pods-rntemplate-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rntemplate-tvOSTests/Pods-rntemplate-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		740E274149E6BA5A64F718A4 /* libPods-rntemplate-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplate-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79145A7763FC0F34EF94E186 /* Pods-rntemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-rntemplateTests/Pods-rntemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B585754B7D529901B9E3923 /* libPods-rntemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A2970F510AB58BFE7F3A4E /* Pods-rntemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplateTests.release.xcconfig"; path = "Target Support Files/Pods-rntemplateTests/Pods-rntemplateTests.release.xcconfig"; sourceTree = "<group>"; };
-		B2EFD20170B271E0C8D224B1 /* Pods-rntemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate.debug.xcconfig"; path = "Target Support Files/Pods-rntemplate/Pods-rntemplate.debug.xcconfig"; sourceTree = "<group>"; };
-		BF64793863DC13ED298B3E9B /* Pods-rntemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rntemplate-tvOS/Pods-rntemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TagTeam/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TagTeam/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TagTeam/main.m; sourceTree = "<group>"; };
+		1D6AB0DD4ED9912008CB0797 /* Pods-TagTeam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam.release.xcconfig"; path = "Target Support Files/Pods-TagTeam/Pods-TagTeam.release.xcconfig"; sourceTree = "<group>"; };
+		2246B126FA34C87F01B709E3 /* Pods-TagTeam-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TagTeam-tvOS/Pods-TagTeam-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* TagTeam-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TagTeam-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* TagTeam-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TagTeam-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		514ED44491B6887CA80FF9E5 /* Pods-TagTeam-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TagTeam-tvOSTests/Pods-TagTeam-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		740E274149E6BA5A64F718A4 /* libPods-TagTeam-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagTeam-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79145A7763FC0F34EF94E186 /* Pods-TagTeamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeamTests.debug.xcconfig"; path = "Target Support Files/Pods-TagTeamTests/Pods-TagTeamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B585754B7D529901B9E3923 /* libPods-TagTeam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagTeam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A2970F510AB58BFE7F3A4E /* Pods-TagTeamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeamTests.release.xcconfig"; path = "Target Support Files/Pods-TagTeamTests/Pods-TagTeamTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2EFD20170B271E0C8D224B1 /* Pods-TagTeam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam.debug.xcconfig"; path = "Target Support Files/Pods-TagTeam/Pods-TagTeam.debug.xcconfig"; sourceTree = "<group>"; };
+		BF64793863DC13ED298B3E9B /* Pods-TagTeam-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TagTeam-tvOS/Pods-TagTeam-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		C48641BE22F1E8D800040CC0 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2CC7B0FEDACF36C5ACD832 /* libPods-rntemplate-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplate-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2841A80E811AE6813EAC8E3 /* libPods-rntemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rntemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2CC7B0FEDACF36C5ACD832 /* libPods-TagTeam-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagTeam-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2841A80E811AE6813EAC8E3 /* libPods-TagTeamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagTeamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F2A054E1E5A56B65196F16B1 /* Pods-rntemplate-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rntemplate-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rntemplate-tvOSTests/Pods-rntemplate-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2A054E1E5A56B65196F16B1 /* Pods-TagTeam-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagTeam-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TagTeam-tvOSTests/Pods-TagTeam-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C51E5921F27407399D5E9C3 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C67AE19CA71F44C6A921BF6D /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2818C3F34F794C7B9C021AFA /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82968F7755934BB28E628230 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C1F23018E4B4DD09A19AFFF /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9512322491064C47AF486CA8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D8C46EA76C34312A17B538D /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C499AFF8C3424842916A4FCF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9344614F4170423F94B7A03F /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19E53F6F4FFB4C669A30281E /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A289A41BB73E4F819C879B41 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFF2F3FF590742E5B2410A32 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7478B23E611D4D4382019A6D /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E59E092989604D6595E4743D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		659FF2C0C4894D4ABC63FDA5 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBF20334FF3E40758BDD1925 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E20180BA6305446D8C9170C5 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85F8C991DA7248D29D02FB39 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFCB98DC5DB04C299E015EB3 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EBFD7D119106E8A1C6559CE /* libPods-rntemplateTests.a in Frameworks */,
+				0EBFD7D119106E8A1C6559CE /* libPods-TagTeamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39661FB9D78F4867E7A82A7C /* libPods-rntemplate.a in Frameworks */,
+				39661FB9D78F4867E7A82A7C /* libPods-TagTeam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E450DDF6859F1AB0B90B8B12 /* libPods-rntemplate-tvOS.a in Frameworks */,
+				E450DDF6859F1AB0B90B8B12 /* libPods-TagTeam-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,20 +136,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA2584331FDB88C78C72556 /* libPods-rntemplate-tvOSTests.a in Frameworks */,
+				DEA2584331FDB88C78C72556 /* libPods-TagTeam-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rntemplateTests */ = {
+		00E356EF1AD99517003FC87E /* TagTeamTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rntemplateTests.m */,
+				00E356F21AD99517003FC87E /* TagTeamTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rntemplateTests;
+			path = TagTeamTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -123,7 +160,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rntemplate */ = {
+		13B07FAE1A68108700A75B9A /* TagTeam */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -134,7 +171,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rntemplate;
+			name = TagTeam;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -143,10 +180,10 @@
 				C48641BE22F1E8D800040CC0 /* libReact-Core.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7B585754B7D529901B9E3923 /* libPods-rntemplate.a */,
-				740E274149E6BA5A64F718A4 /* libPods-rntemplate-tvOS.a */,
-				DE2CC7B0FEDACF36C5ACD832 /* libPods-rntemplate-tvOSTests.a */,
-				E2841A80E811AE6813EAC8E3 /* libPods-rntemplateTests.a */,
+				7B585754B7D529901B9E3923 /* libPods-TagTeam.a */,
+				740E274149E6BA5A64F718A4 /* libPods-TagTeam-tvOS.a */,
+				DE2CC7B0FEDACF36C5ACD832 /* libPods-TagTeam-tvOSTests.a */,
+				E2841A80E811AE6813EAC8E3 /* libPods-TagTeamTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,14 +191,14 @@
 		37A6BEA0AD4A254363D6F4B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2EFD20170B271E0C8D224B1 /* Pods-rntemplate.debug.xcconfig */,
-				1D6AB0DD4ED9912008CB0797 /* Pods-rntemplate.release.xcconfig */,
-				2246B126FA34C87F01B709E3 /* Pods-rntemplate-tvOS.debug.xcconfig */,
-				BF64793863DC13ED298B3E9B /* Pods-rntemplate-tvOS.release.xcconfig */,
-				514ED44491B6887CA80FF9E5 /* Pods-rntemplate-tvOSTests.debug.xcconfig */,
-				F2A054E1E5A56B65196F16B1 /* Pods-rntemplate-tvOSTests.release.xcconfig */,
-				79145A7763FC0F34EF94E186 /* Pods-rntemplateTests.debug.xcconfig */,
-				80A2970F510AB58BFE7F3A4E /* Pods-rntemplateTests.release.xcconfig */,
+				B2EFD20170B271E0C8D224B1 /* Pods-TagTeam.debug.xcconfig */,
+				1D6AB0DD4ED9912008CB0797 /* Pods-TagTeam.release.xcconfig */,
+				2246B126FA34C87F01B709E3 /* Pods-TagTeam-tvOS.debug.xcconfig */,
+				BF64793863DC13ED298B3E9B /* Pods-TagTeam-tvOS.release.xcconfig */,
+				514ED44491B6887CA80FF9E5 /* Pods-TagTeam-tvOSTests.debug.xcconfig */,
+				F2A054E1E5A56B65196F16B1 /* Pods-TagTeam-tvOSTests.release.xcconfig */,
+				79145A7763FC0F34EF94E186 /* Pods-TagTeamTests.debug.xcconfig */,
+				80A2970F510AB58BFE7F3A4E /* Pods-TagTeamTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -176,12 +213,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rntemplate */,
+				13B07FAE1A68108700A75B9A /* TagTeam */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rntemplateTests */,
+				00E356EF1AD99517003FC87E /* TagTeamTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				37A6BEA0AD4A254363D6F4B9 /* Pods */,
+				8478CFDC395442DC950A0675 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -191,20 +229,47 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rntemplate.app */,
-				00E356EE1AD99517003FC87E /* rntemplateTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* rntemplate-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* rntemplate-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* TagTeam.app */,
+				00E356EE1AD99517003FC87E /* TagTeamTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* TagTeam-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* TagTeam-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8478CFDC395442DC950A0675 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0C51E5921F27407399D5E9C3 /* AntDesign.ttf */,
+				C67AE19CA71F44C6A921BF6D /* Entypo.ttf */,
+				2818C3F34F794C7B9C021AFA /* EvilIcons.ttf */,
+				82968F7755934BB28E628230 /* Feather.ttf */,
+				1C1F23018E4B4DD09A19AFFF /* FontAwesome.ttf */,
+				9512322491064C47AF486CA8 /* FontAwesome5_Brands.ttf */,
+				0D8C46EA76C34312A17B538D /* FontAwesome5_Regular.ttf */,
+				C499AFF8C3424842916A4FCF /* FontAwesome5_Solid.ttf */,
+				9344614F4170423F94B7A03F /* Fontisto.ttf */,
+				19E53F6F4FFB4C669A30281E /* Foundation.ttf */,
+				A289A41BB73E4F819C879B41 /* Ionicons.ttf */,
+				FFF2F3FF590742E5B2410A32 /* MaterialCommunityIcons.ttf */,
+				7478B23E611D4D4382019A6D /* MaterialIcons.ttf */,
+				E59E092989604D6595E4743D /* Octicons.ttf */,
+				659FF2C0C4894D4ABC63FDA5 /* Roboto_medium.ttf */,
+				FBF20334FF3E40758BDD1925 /* Roboto.ttf */,
+				E20180BA6305446D8C9170C5 /* rubicon-icon-font.ttf */,
+				85F8C991DA7248D29D02FB39 /* SimpleLineIcons.ttf */,
+				BFCB98DC5DB04C299E015EB3 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rntemplateTests */ = {
+		00E356ED1AD99517003FC87E /* TagTeamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rntemplateTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TagTeamTests" */;
 			buildPhases = (
 				6DC7183D216C05AAC108985D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +281,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rntemplateTests;
-			productName = rntemplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* rntemplateTests.xctest */;
+			name = TagTeamTests;
+			productName = TagTeamTests;
+			productReference = 00E356EE1AD99517003FC87E /* TagTeamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rntemplate */ = {
+		13B07F861A680F5B00A75B9A /* TagTeam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rntemplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TagTeam" */;
 			buildPhases = (
 				3AC473D8A1AEAE080C1DA3AC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +301,14 @@
 			);
 			dependencies = (
 			);
-			name = rntemplate;
-			productName = rntemplate;
-			productReference = 13B07F961A680F5B00A75B9A /* rntemplate.app */;
+			name = TagTeam;
+			productName = TagTeam;
+			productReference = 13B07F961A680F5B00A75B9A /* TagTeam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* rntemplate-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* TagTeam-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rntemplate-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TagTeam-tvOS" */;
 			buildPhases = (
 				CE4D95ADDE5967AE7D450C8E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +321,14 @@
 			);
 			dependencies = (
 			);
-			name = "rntemplate-tvOS";
-			productName = "rntemplate-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* rntemplate-tvOS.app */;
+			name = "TagTeam-tvOS";
+			productName = "TagTeam-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* TagTeam-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* rntemplate-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* TagTeam-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rntemplate-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TagTeam-tvOSTests" */;
 			buildPhases = (
 				3F35A38203DE0F2F2DC23FB9 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +340,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "rntemplate-tvOSTests";
-			productName = "rntemplate-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* rntemplate-tvOSTests.xctest */;
+			name = "TagTeam-tvOSTests";
+			productName = "TagTeam-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* TagTeam-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -286,7 +351,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -304,7 +369,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rntemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TagTeam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -318,10 +383,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rntemplate */,
-				00E356ED1AD99517003FC87E /* rntemplateTests */,
-				2D02E47A1E0B4A5D006451C7 /* rntemplate-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* rntemplate-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* TagTeam */,
+				00E356ED1AD99517003FC87E /* TagTeamTests */,
+				2D02E47A1E0B4A5D006451C7 /* TagTeam-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* TagTeam-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,6 +405,25 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7BAE3204A930463A991CE146 /* AntDesign.ttf in Resources */,
+				FF820F202142498AB7CD02F2 /* Entypo.ttf in Resources */,
+				4F209A52623E4740BD4DCB1F /* EvilIcons.ttf in Resources */,
+				B370EA7244AD48D3B875E1BB /* Feather.ttf in Resources */,
+				367C6F5C37E44EFA8620E385 /* FontAwesome.ttf in Resources */,
+				4586AD42F44E45DEB3A67BC8 /* FontAwesome5_Brands.ttf in Resources */,
+				3A78E5DF26D749718F08F25B /* FontAwesome5_Regular.ttf in Resources */,
+				183B5E1421944FED9768E78B /* FontAwesome5_Solid.ttf in Resources */,
+				14DF965DF6DC48C9AA60990B /* Fontisto.ttf in Resources */,
+				A87BC45FF81D47A7983E9C7A /* Foundation.ttf in Resources */,
+				60CFC7E9245C484E9D8D579E /* Ionicons.ttf in Resources */,
+				8ADFAE145B6143B9A51ADE4F /* MaterialCommunityIcons.ttf in Resources */,
+				1079F264645242FCB5DCAA46 /* MaterialIcons.ttf in Resources */,
+				D1C2369DC9BD49A287A718BC /* Octicons.ttf in Resources */,
+				20D74BD367F643B78EF56612 /* Roboto_medium.ttf in Resources */,
+				70489AFF23B8453BA6CE2316 /* Roboto.ttf in Resources */,
+				80B1D2FAB03D4D95A9414389 /* rubicon-icon-font.ttf in Resources */,
+				A4C05003FEAC46E7B3B24212 /* SimpleLineIcons.ttf in Resources */,
+				8770332FC4E340C8B7E19D09 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +488,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TagTeam-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +510,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplate-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TagTeam-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +532,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TagTeamTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +554,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rntemplate-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TagTeam-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rntemplateTests.m in Sources */,
+				00E356F31AD99517003FC87E /* TagTeamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* rntemplateTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* TagTeamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +641,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rntemplate */;
+			target = 13B07F861A680F5B00A75B9A /* TagTeam */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* rntemplate-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* TagTeam-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +658,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = rntemplate;
+			path = TagTeam;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +666,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79145A7763FC0F34EF94E186 /* Pods-rntemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 79145A7763FC0F34EF94E186 /* Pods-TagTeamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rntemplateTests/Info.plist;
+				INFOPLIST_FILE = TagTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +683,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplate.app/rntemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTeam.app/TagTeam";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80A2970F510AB58BFE7F3A4E /* Pods-rntemplateTests.release.xcconfig */;
+			baseConfigurationReference = 80A2970F510AB58BFE7F3A4E /* Pods-TagTeamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rntemplateTests/Info.plist;
+				INFOPLIST_FILE = TagTeamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,18 +703,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplate.app/rntemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTeam.app/TagTeam";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2EFD20170B271E0C8D224B1 /* Pods-rntemplate.debug.xcconfig */;
+			baseConfigurationReference = B2EFD20170B271E0C8D224B1 /* Pods-TagTeam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = rntemplate/Info.plist;
+				INFOPLIST_FILE = TagTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -638,18 +722,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rntemplate;
+				PRODUCT_NAME = TagTeam;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6AB0DD4ED9912008CB0797 /* Pods-rntemplate.release.xcconfig */;
+			baseConfigurationReference = 1D6AB0DD4ED9912008CB0797 /* Pods-TagTeam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rntemplate/Info.plist;
+				INFOPLIST_FILE = TagTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -657,14 +741,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rntemplate;
+				PRODUCT_NAME = TagTeam;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2246B126FA34C87F01B709E3 /* Pods-rntemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2246B126FA34C87F01B709E3 /* Pods-TagTeam-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -675,14 +759,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rntemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "TagTeam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rntemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TagTeam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -692,7 +776,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF64793863DC13ED298B3E9B /* Pods-rntemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = BF64793863DC13ED298B3E9B /* Pods-TagTeam-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -703,14 +787,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rntemplate-tvOS/Info.plist";
+				INFOPLIST_FILE = "TagTeam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rntemplate-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TagTeam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -720,7 +804,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 514ED44491B6887CA80FF9E5 /* Pods-rntemplate-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 514ED44491B6887CA80FF9E5 /* Pods-TagTeam-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -730,24 +814,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rntemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TagTeam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rntemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TagTeam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplate-tvOS.app/rntemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTeam-tvOS.app/TagTeam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2A054E1E5A56B65196F16B1 /* Pods-rntemplate-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F2A054E1E5A56B65196F16B1 /* Pods-TagTeam-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -757,17 +841,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "rntemplate-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TagTeam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.rntemplate-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.TagTeam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rntemplate-tvOS.app/rntemplate-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagTeam-tvOS.app/TagTeam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -874,7 +958,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rntemplateTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TagTeamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -883,7 +967,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rntemplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TagTeam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -892,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rntemplate-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TagTeam-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -901,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rntemplate-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TagTeam-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -910,7 +994,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rntemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TagTeam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
