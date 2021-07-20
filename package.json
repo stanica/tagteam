@@ -12,7 +12,7 @@
     "native-base": "^2.13.8",
     "prop-types": "^15.6.1",
     "react": "16.8.6",
-    "react-native": "0.60.4",
+    "react-native": "0.62.3",
     "react-native-biometrics": "^1.6.1",
     "react-native-dotenv": "^0.2.0",
     "react-native-elements": "^1.2.1",
